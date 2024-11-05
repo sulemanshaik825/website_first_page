@@ -1,0 +1,84 @@
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-image: url('https://raw.githubusercontent.com/sulemanshaik825/images/main/background.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Section styling for a smooth single-page layout */
+.introduction,
+.content-section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 1000px; /* Increased max-width for more content space */
+  padding-left: 2rem; /* Added left padding for offset look */
+  color: #333;
+}
+
+/* Section titles */
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+.introduction p,
+.content-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Code block styling */
+pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  margin-top: 1rem;
+  font-family: 'Courier New', monospace;
+}
